@@ -1,0 +1,609 @@
+# Copyright (C) 2021 ProWCPlugins
+# This file is distributed under the same license as the Product Time Countdown for WooCommerce plugin.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Price by Formula for WooCommerce\n"
+"POT-Creation-Date: 2024-04-02 11:39+0530\n"
+"PO-Revision-Date: 2017-03-11 16:09+0530\n"
+"Last-Translator: ProWCPlugins\n"
+"Language-Team: ProWCPlugins <prowcplugins@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_x:1,2c;_ex:1,2c;"
+"_nx:1,2c;esc_attr_e;esc_attr__;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c;_n_noop:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-prowc-ppbf-admin.php:36
+msgid "Formula Enabled"
+msgstr ""
+
+#: includes/class-prowc-ppbf-admin.php:37
+#: includes/class-prowc-ppbf-admin.php:134
+#: includes/settings/class-prowc-ppbf-metaboxes.php:246
+#: includes/settings/class-prowc-ppbf-metaboxes.php:265
+#: includes/settings/class-prowc-ppbf-settings-default-formula.php:80
+msgid "Formula"
+msgstr ""
+
+#: includes/class-prowc-ppbf-admin.php:38
+msgid "Params"
+msgstr ""
+
+#: includes/class-prowc-ppbf-admin.php:39
+msgid "Price"
+msgstr ""
+
+#: includes/class-prowc-ppbf-admin.php:140
+#: includes/settings/class-prowc-ppbf-metaboxes.php:254
+#: includes/settings/class-prowc-ppbf-metaboxes.php:282
+#: includes/settings/class-prowc-ppbf-settings-default-formula.php:87
+msgid "Number of parameters"
+msgstr ""
+
+#: includes/class-prowc-ppbf-admin.php:169
+#: includes/settings/class-prowc-ppbf-metaboxes.php:36
+#: includes/settings/class-prowc-settings-ppbf.php:25
+msgid "Product Price by Formula"
+msgstr ""
+
+#: includes/class-prowc-ppbf-admin.php:203
+msgid "Save"
+msgstr ""
+
+#: includes/class-prowc-ppbf-admin.php:221
+msgid "Final price preview:"
+msgstr ""
+
+#: includes/class-prowc-ppbf-admin.php:222
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/class-prowc-ppbf-core.php:248
+#, php-format
+msgid "<strong>Error in %1$s formula:</strong> %2$s"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-metaboxes.php:190
+#: includes/settings/class-prowc-ppbf-metaboxes.php:205
+msgid "Enabled"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-metaboxes.php:191
+msgid ""
+"\"Enabled\" option is ignored if \"Enable Price Calculation By Formula For "
+"All Products\" option is checked in plugin's settings."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-metaboxes.php:197
+#: includes/settings/class-prowc-ppbf-metaboxes.php:207
+msgid "Yes"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-metaboxes.php:198
+#: includes/settings/class-prowc-ppbf-settings-general.php:101
+msgid "No"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-metaboxes.php:210
+#, php-format
+msgid "Enabled for all products in %s."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-metaboxes.php:211
+msgid ""
+"WooCommerce > Settings > Product Price by Formula > General > Bulk Settings "
+"> Enable for all products"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-metaboxes.php:218
+#: includes/settings/class-prowc-ppbf-metaboxes.php:232
+#: includes/settings/class-prowc-ppbf-metaboxes.php:277
+#: includes/settings/class-prowc-ppbf-metaboxes.php:293
+#: includes/settings/class-prowc-ppbf-metaboxes.php:331
+msgid "Calculation"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-metaboxes.php:223
+msgid "Use per product values"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-metaboxes.php:224
+msgid "Use default formula values"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-metaboxes.php:225
+msgid "Use default formula with individual params"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-metaboxes.php:235
+msgid "Same formula (with individual params)"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-metaboxes.php:235
+msgid "Same formula (with same params)"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-metaboxes.php:238
+#: includes/settings/class-prowc-ppbf-metaboxes.php:288
+#, php-format
+msgid "Same formula use for all products is enabled in %s."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-metaboxes.php:239
+#: includes/settings/class-prowc-ppbf-metaboxes.php:272
+#: includes/settings/class-prowc-ppbf-metaboxes.php:289
+#: includes/settings/class-prowc-ppbf-metaboxes.php:327
+msgid ""
+"WooCommerce > Settings > Product Price by Formula > General > Bulk Settings "
+"> Use same formula"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-metaboxes.php:255
+#: includes/settings/class-prowc-ppbf-settings-default-formula.php:89
+msgid ""
+"Save settings after you change this number - new settings fields will "
+"appear."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-metaboxes.php:271
+#, php-format
+msgid "Same formula use for all products is enabled in %1$s."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-metaboxes.php:276
+#, php-format
+msgid "Using default formula as \"%1$s\" option above is set to \"%2$s\"."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-metaboxes.php:278
+#: includes/settings/class-prowc-ppbf-metaboxes.php:294
+#: includes/settings/class-prowc-ppbf-metaboxes.php:332
+msgid "Use default formula"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-metaboxes.php:292
+#, php-format
+msgid ""
+"Using default number of parameters as \"%1$s\" option above is set to "
+"\"%2$s\"."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-metaboxes.php:326
+#, php-format
+msgid "Same parameters use for all products is enabled in %s."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-metaboxes.php:330
+#, php-format
+msgid "Using default parameter as \"%1$s\" option above is set to \"%2$s\"."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-default-formula.php:26
+msgid "Default Formula"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-default-formula.php:43
+msgid "Default Formula Settings"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-default-formula.php:45
+msgid ""
+"You can set default settings here. All settings can later be changed on "
+"individual product's edit page (in <strong>Product Price by Formula</"
+"strong> meta box)."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-default-formula.php:48
+#, php-format
+msgid ""
+"In <strong>formula</strong> use %1$s variable for product's base price. For "
+"example: %2$s. Please note that you cannot use %3$s or %4$s <strong>inside "
+"other params</strong>."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-default-formula.php:53
+#, php-format
+msgid ""
+"In <strong>formula and/or params</strong> you can also use shortcodes: %s."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-default-formula.php:66
+#, php-format
+msgid ""
+"Please note that if you are using <strong>caching plugins</strong> and "
+"dynamic product pricing (e.g., price changing with product stock (%1$s) or "
+"by customer's location (%2$s)), then caching needs to be disabled for "
+"products pages."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-default-formula.php:71
+#, php-format
+msgid ""
+"If you want to keep caching enabled, you will need to cache product pages "
+"for each condition: for example for %1$s you can set %2$s option to %3$s in "
+"%4$s."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-default-formula.php:73
+msgid "Default customer location"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-default-formula.php:74
+msgid "Geolocate (with page caching support)"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-default-formula.php:75
+msgid "WooCommerce > Settings > General"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-default-formula.php:88
+msgid "Save changes"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-default-formula.php:100
+msgid "Value"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-default-formula.php:107
+msgid "Admin note (optional)"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:25
+msgid "General"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:39
+msgid "Product Price by Formula Options"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:44
+#: product-price-by-formula-for-woocommerce.php:283
+#: product-price-by-formula-for-woocommerce.php:292
+msgid "Product Price by Formula for WooCommerce"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:45
+msgid "Enable plugin"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:58
+msgid "Bulk Settings"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:63
+msgid "Enable for all products"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:64
+msgid "Enable"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:68
+msgid "Enables price calculation by formula for all products."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:70
+#, php-format
+msgid ""
+"To enable price calculation by formula <strong>for all products</strong>, "
+"you'll need <a target=\"_blank\" href=\"%s\">Product Price by Formula for "
+"WooCommerce Pro</a> plugin."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:75
+msgid "Disable for product IDs"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:76
+msgid ""
+"If you have checked \"Enable for all products\" option, you can optionally "
+"add product exceptions here (i.e. price calculation by formula will be "
+"disabled for these products)."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:77
+msgid "Set it as comma separated list of product IDs."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:85
+msgid "Disable for product category IDs"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:86
+msgid ""
+"If you have checked \"Enable for all products\" option, you can optionally "
+"add product category exceptions here (i.e. price calculation by formula "
+"will be disabled for these product categories)."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:87
+msgid "Set it as comma separated list of product category IDs."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:95
+msgid "Use same formula"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:96
+msgid ""
+"Enables same formula for all products. Possible values: No; Yes (with "
+"individual params); Yes (with same params)."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:102
+msgid "Yes (with individual params)"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:103
+msgid "Yes (with same params)"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:107
+#, php-format
+msgid ""
+"To enable <strong>same formula</strong> (with individual or global params) "
+"for all products, you'll need <a target=\"_blank\" href=\"%s\">Product "
+"Price by Formula for WooCommerce Pro</a> plugin."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:119
+msgid "General Settings"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:124
+msgid "Disable for empty price"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:125
+msgid "Disables price by formula for products with empty price."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:126
+msgid "Disable"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:140
+msgid "Rounding Settings"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:143
+#, php-format
+msgid ""
+"This section is <strong>deprecated</strong> - instead use one of these "
+"shortcodes in formula: %s."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:145
+msgid ""
+"As soon as you will set \"Final price rounding\" option below to "
+"\"Disabled\" this settings section will be removed."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:150
+msgid "Final price rounding"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:155
+msgid "Disabled"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:156
+msgid "Round down"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:157
+msgid "Round"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:158
+msgid "Round up"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:162
+msgid "Rounding precision (i.e. number of decimals)"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:163
+msgid ""
+"Only used when \"Round\" option is selected for \"Final price rounding\". "
+"Can be positive, negative or zero."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:176
+msgid "Admin Settings"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:181
+msgid "Add dashboard widget"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:182
+msgid "Adds default settings admin dashboard widget."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:183
+msgid "Add"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:189
+msgid "Products list columns"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:190
+msgid "Adds columns to the admin products list."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:205
+msgid "Advanced Settings"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:210
+msgid "Shortcodes prefix"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:211
+msgid "Optional prefix for all plugin's shortcodes."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:214
+#, php-format
+msgid "E.g.: if set to %1$s, will transform %2$s to %3$s."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:222
+msgid "Price filters priority"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:223
+msgid ""
+"Priority for WooCommerce price filters. Set to zero to use the default "
+"priority."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:229
+msgid "Plugin URLs"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:230
+msgid ""
+"By default plugin applies price calculations on frontend only. If you need "
+"to apply it on other URLs, enter URLs here. One URL per line."
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:233
+#, php-format
+msgid "E.g.: %s"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:241
+msgid "Price changes"
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:242
+msgid "Disable price by formula for products with \"price changes\""
+msgstr ""
+
+#: includes/settings/class-prowc-ppbf-settings-general.php:243
+msgid ""
+"Try enabling this checkbox, if you are having compatibility issues with "
+"other plugins."
+msgstr ""
+
+#: includes/settings/class-prowc-settings-ppbf.php:50
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/settings/class-prowc-settings-ppbf.php:55
+msgid "Reset section settings"
+msgstr ""
+
+#: includes/settings/class-prowc-settings-ppbf.php:56
+msgid "Reset"
+msgstr ""
+
+#: includes/settings/class-prowc-settings-ppbf.php:95
+msgid "Your settings have been reset."
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:150
+msgid "Settings"
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:153
+msgid "Unlock All"
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:283
+msgid ""
+" plugin is not working because you need to activate the Woocommerce plugin."
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:284
+msgid "Activate Woocommerce Now"
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:292
+msgid ""
+" plugin is not working because you need to install the WooCoomerce plugin"
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:293
+msgid "Install WooCoomerce Now"
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:341
+msgid "Upgrade Product Price by Formula for WooCommerce"
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:341
+msgid "to get additional features, security, and support. "
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:341
+msgid "Get 20% OFF"
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:341
+msgid " your upgrade, use coupon code"
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:341
+msgid "WP20"
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:346
+msgid "Buy Now"
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:347
+#: product-price-by-formula-for-woocommerce.php:418
+msgid "Remind me later"
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:348
+#: product-price-by-formula-for-woocommerce.php:419
+msgid "Dismiss Notice"
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:402
+#, php-format
+msgid "How are you liking the %s?"
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:436
+msgid "Are you enjoying Product Price by Formula for WooCommerce?"
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:440
+msgid "Yes!"
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:441
+msgid "Not Really!"
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:453
+msgid ""
+"That's awesome! Could you please do me a BIG favor and give it 5-star "
+"rating on WordPress to help us spread the word and boost our motivation?"
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:458
+msgid "Okay You Deserve It"
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:459
+msgid "Nope Maybe later"
+msgstr ""
+
+#: product-price-by-formula-for-woocommerce.php:460
+msgid "I Already Did"
+msgstr ""
